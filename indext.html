@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nasrin Shop | فروشگاه نسرین</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading -->
+    <div class="loader">
+
+        <div class="loader-logo">
+
+            <img
+                src="media/logo.jpg"
+                alt="Nasrin Shop"
+            >
+
+        </div>
+
+        <div class="loader-line"></div>
+
+    </div>
+
+
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <div class="header-container">
+
+            <a href="#home" class="logo">
+
+                <img
+                    src="media/logo.jpg"
+                    alt="Nasrin Shop"
+                >
+
+            </a>
+
+
+            <nav class="desktop-nav">
+
+                <a href="#home" class="active">
+                    خانه
+                </a>
+
+                <a href="#categories">
+                    دسته‌بندی‌ها
+                </a>
+
+                <a href="#products">
+                    محصولات
+                </a>
+
+                <a href="#about">
+                    درباره ما
+                </a>
+
+                <a href="#contact">
+                    تماس با ما
+                </a>
+
+            </nav>
+
+
+            <div class="header-actions">
+
+                <button
+                    class="icon-button"
+                    id="searchBtn"
+                    aria-label="جستجو"
+                >
+
+                    <svg viewBox="0 0 24 24">
+
+                        <circle
+                            cx="11"
+                            cy="11"
+                            r="6.5"
+                        ></circle>
+
+                        <path
+                            d="M16 16L21 21"
+                        ></path>
+
+                    </svg>
+
+                </button>
+
+
+                <button
+                    class="icon-button"
+                    id="accountBtn"
+                    aria-label="حساب کاربری"
+                >
+
+                    <svg viewBox="0 0 24 24">
+
+                        <circle
+                            cx="12"
+                            cy="8"
+                            r="3.5"
+                        ></circle>
+
+                        <path
+                            d="M5 20c.8-3.5 3.2-5.5 7-5.5s6.2 2 7 5.5"
+                        ></path>
+
+                    </svg>
+
+                </button>
+
+
+                <button
+                    class="icon-button cart-button"
+                    id="cartBtn"
+                    aria-label="سبد خرید"
+                >
+
+                    <svg viewBox="0 0 24 24">
+
+                        <path
+                            d="M4 5h2l2 11h9l2-8H7"
+                        ></path>
+
+                        <circle
+                            cx="9"
+                            cy="20"
+                            r="1"
+                        ></circle>
+
+                        <circle
+                            cx="17"
+                            cy="20"
+                            r="1"
+                        ></circle>
+
+                    </svg>
+
+                    <span
+                        class="cart-count"
+                        id="cartCount"
+                    >
+                        0
+                    </span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- =========================
+             HERO
+        ========================= -->
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+            <div class="hero-container">
+
+
+                <div class="hero-content reveal">
+
+                    <span class="hero-small-title">
+                        NASRIN SHOP
+                    </span>
+
+
+                    <h1>
+
+                        انتخابی که
+
+                        <span>
+                            خاص می‌شود.
+                        </span>
+
+                    </h1>
+
+
+                    <p>
+                        مجموعه‌ای از محصولات منتخب با طراحی زیبا،
+                        کیفیت مناسب و تجربه‌ای متفاوت از خرید آنلاین.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#products"
+                            class="primary-button"
+                        >
+
+                            مشاهده محصولات
+
+                            <span>
+                                ←
+                            </span>
+
+                        </a>
+
+
+                        <a
+                            href="#about"
+                            class="secondary-button"
+                        >
+
+                            درباره ما
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="hero-visual reveal delay-1">
+
+                    <div class="hero-circle"></div>
+
+
+                    <!-- Hero Image -->
+
+                    <div class="hero-card">
+
+                        <img
+                            src="media/hero.png"
+                            alt="Nasrin Shop"
+                            class="hero-image"
+                        >
+
+                        <div class="hero-card-overlay">
+
+                            <span>
+                                NASRIN SHOP
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card floating-one">
+
+                        کیفیت
+
+                    </div>
+
+
+                    <div class="floating-card floating-two">
+
+                        انتخاب خاص
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-bottom-line"></div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CATEGORIES
+        ========================= -->
+
+        <section
+            class="section categories-section"
+            id="categories"
+        >
+
+
+            <div class="section-title reveal">
+
+                <span>
+                    دسته‌بندی‌ها
+                </span>
+
+
+                <h2>
+
+                    چیزی برای
+
+                    <strong>
+                        انتخاب شما
+                    </strong>
+
+                </h2>
+
+
+                <p>
+                    دسته‌بندی موردنظر خود را انتخاب کنید.
+                </p>
+
+            </div>
+
+
+
+            <div class="categories-grid">
+
+
+                <!-- T-SHIRT -->
+
+                <a
+                    href="#products"
+                    class="category-card reveal"
+                >
+
+                    <div class="category-number">
+                        01
+                    </div>
+
+
+                    <div class="category-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <path
+                                d="M6 4h12l2 6-3 1v9H7v-9l-3-1z"
+                            ></path>
+
+                            <path
+                                d="M8 4c0 2 1.5 3 4 3s4-1 4-3"
+                            ></path>
+
+                        </svg>
+
+                    </div>
+
+
+                    <h3>
+                        تی‌شرت
+                    </h3>
+
+
+                    <p>
+                        انتخاب‌های خاص و کاربردی
+                    </p>
+
+
+                    <span class="category-arrow">
+                        ←
+                    </span>
+
+                </a>
+
+
+
+                <!-- PANTS -->
+
+                <a
+                    href="#products"
+                    class="category-card reveal delay-1"
+                >
+
+                    <div class="category-number">
+                        02
+                    </div>
+
+
+                    <div class="category-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <circle
+                                cx="12"
+                                cy="12"
+                                r="7"
+                            ></circle>
+
+                            <circle
+                                cx="12"
+                                cy="12"
+                                r="2"
+                            ></circle>
+
+                            <path
+                                d="M17 7l3-3"
+                            ></path>
+
+                        </svg>
+
+                    </div>
+
+
+                    <h3>
+                        شلوار
+                    </h3>
+
+
+                    <p>
+                        جزئیاتی که استایل را کامل می‌کنند
+                    </p>
+
+
+                    <span class="category-arrow">
+                        ←
+                    </span>
+
+                </a>
+
+
+
+                <!-- SET -->
+
+                <a
+                    href="#products"
+                    class="category-card reveal delay-2"
+                >
+
+                    <div class="category-number">
+                        03
+                    </div>
+
+
+                    <div class="category-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <path
+                                d="M5 9h14v11H5z"
+                            ></path>
+
+                            <path
+                                d="M8 9V6a4 4 0 0 1 8 0v3"
+                            ></path>
+
+                        </svg>
+
+                    </div>
+
+
+                    <h3>
+                        ست
+                    </h3>
+
+
+                    <p>
+                        مدل‌های کاربردی و متفاوت
+                    </p>
+
+
+                    <span class="category-arrow">
+                        ←
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PRODUCTS
+        ========================= -->
+
+        <section
+            class="section products-section"
+            id="products"
+        >
+
+
+            <div class="section-heading reveal">
+
+                <div>
+
+                    <span>
+                        منتخب فروشگاه
+                    </span>
+
+
+                    <h2>
+
+                        محصولات
+
+                        <strong>
+                            جدید
+                        </strong>
+
+                    </h2>
+
+                </div>
+
+
+                <a
+                    href="#"
+                    class="view-all"
+                >
+
+                    مشاهده همه
+
+                    <span>
+                        ←
+                    </span>
+
+                </a>
+
+            </div>
+
+
+
+            <div class="products-grid">
+
+
+                <!-- Product 1 -->
+
+                <article class="product-card reveal">
+
+                    <div class="product-image">
+
+                        <span class="product-tag">
+                            جدید
+                        </span>
+
+
+                        <button class="favorite">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path
+                                    d="M20.8 8.7c0 5.5-8.8 10-8.8 10s-8.8-4.5-8.8-10A4.7 4.7 0 0 1 12 6.1a4.7 4.7 0 0 1 8.8 2.6z"
+                                ></path>
+
+                            </svg>
+
+                        </button>
+
+
+                        <div class="product-placeholder">
+                            PRODUCT
+                        </div>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <span>
+                            تی‌شرت
+                        </span>
+
+
+                        <h3>
+                            محصول شماره یک
+                        </h3>
+
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ۸۹۰,۰۰۰ تومان
+                            </strong>
+
+
+                            <button class="add-cart">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- Product 2 -->
+
+                <article class="product-card reveal delay-1">
+
+                    <div class="product-image">
+
+                        <span class="product-tag">
+                            جدید
+                        </span>
+
+
+                        <button class="favorite">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path
+                                    d="M20.8 8.7c0 5.5-8.8 10-8.8 10s-8.8-4.5-8.8-10A4.7 4.7 0 0 1 12 6.1a4.7 4.7 0 0 1 8.8 2.6z"
+                                ></path>
+
+                            </svg>
+
+                        </button>
+
+
+                        <div class="product-placeholder">
+                            PRODUCT
+                        </div>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <span>
+                            شلوار
+                        </span>
+
+
+                        <h3>
+                            محصول شماره دو
+                        </h3>
+
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ۶۹۰,۰۰۰ تومان
+                            </strong>
+
+
+                            <button class="add-cart">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- Product 3 -->
+
+                <article class="product-card reveal delay-2">
+
+                    <div class="product-image">
+
+                        <span class="product-tag">
+                            محبوب
+                        </span>
+
+
+                        <button class="favorite">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path
+                                    d="M20.8 8.7c0 5.5-8.8 10-8.8 10s-8.8-4.5-8.8-10A4.7 4.7 0 0 1 12 6.1a4.7 4.7 0 0 1 8.8 2.6z"
+                                ></path>
+
+                            </svg>
+
+                        </button>
+
+
+                        <div class="product-placeholder">
+                            PRODUCT
+                        </div>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <span>
+                            ست
+                        </span>
+
+
+                        <h3>
+                            محصول شماره سه
+                        </h3>
+
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ۱,۲۹۰,۰۰۰ تومان
+                            </strong>
+
+
+                            <button class="add-cart">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- Product 4 -->
+
+                <article class="product-card reveal delay-3">
+
+                    <div class="product-image">
+
+                        <span class="product-tag">
+                            ویژه
+                        </span>
+
+
+                        <button class="favorite">
+
+                            <svg viewBox="0 0 24 24">
+
+                                <path
+                                    d="M20.8 8.7c0 5.5-8.8 10-8.8 10s-8.8-4.5-8.8-10A4.7 4.7 0 0 1 12 6.1a4.7 4.7 0 0 1 8.8 2.6z"
+                                ></path>
+
+                            </svg>
+
+                        </button>
+
+
+                        <div class="product-placeholder">
+                            PRODUCT
+                        </div>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <span>
+                            تی‌شرت
+                        </span>
+
+
+                        <h3>
+                            محصول شماره چهار
+                        </h3>
+
+
+                        <div class="product-bottom">
+
+                            <strong>
+                                ۹۹۰,۰۰۰ تومان
+                            </strong>
+
+
+                            <button class="add-cart">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROMO
+        ========================= -->
+
+        <section class="promo-section">
+
+            <div class="promo-inner reveal">
+
+                <div>
+
+                    <span>
+                        NASRIN SHOP
+                    </span>
+
+
+                    <h2>
+
+                        انتخاب ساده،
+
+                        <strong>
+                            حس خوب.
+                        </strong>
+
+                    </h2>
+
+
+                    <p>
+                        محصول مورد علاقه‌ات را پیدا کن و خریدی متفاوت را تجربه کن.
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="#products"
+                    class="primary-button light"
+                >
+
+                    شروع خرید
+
+                    <span>
+                        ←
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ABOUT
+        ========================= -->
+
+        <section
+            class="section about-section"
+            id="about"
+        >
+
+            <div class="about-grid">
+
+
+                <div class="about-visual reveal">
+
+
+                    <!-- عکس با دقت انتخاب شده -->
+
+                    <div class="about-main-card">
+
+                        <img
+                            src="media/down.png"
+                            alt="محصولات منتخب نسرین‌شاپ"
+                        >
+
+                        <span>
+                            NASRIN SHOP
+                        </span>
+
+                    </div>
+
+
+                    <div class="about-small-card">
+
+                        کیفیت
+
+                        <strong>
+                            با دقت انتخاب شده
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="about-content reveal delay-1">
+
+                    <span class="section-label">
+                        درباره فروشگاه
+                    </span>
+
+
+                    <h2>
+
+                        نسرین؛
+
+                        <strong>
+                            انتخابی برای شما
+                        </strong>
+
+                    </h2>
+
+
+                    <p>
+                        این قسمت برای معرفی فروشگاه نسرین در نظر گرفته شده است.
+                        اطلاعات واقعی فروشگاه، داستان برند و توضیحات موردنظر
+                        کارفرما بعداً در این بخش قرار می‌گیرد.
+                    </p>
+
+
+
+                    <div class="features">
+
+
+                        <div class="feature">
+
+                            <div class="feature-icon">
+
+                                <svg viewBox="0 0 24 24">
+
+                                    <path
+                                        d="M12 3l2.2 5.2L20 10l-5.8 1.8L12 17l-2.2-5.2L4 10l5.8-1.8z"
+                                    ></path>
+
+                                </svg>
+
+                            </div>
+
+
+                            <div>
+
+                                <h4>
+                                    انتخاب با دقت
+                                </h4>
+
+                                <p>
+                                    محصولات منتخب برای شما
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="feature">
+
+                            <div class="feature-icon">
+
+                                <svg viewBox="0 0 24 24">
+
+                                    <path
+                                        d="M3 7h11v10H3z"
+                                    ></path>
+
+                                    <path
+                                        d="M14 10h4l3 3v4h-7z"
+                                    ></path>
+
+                                    <circle
+                                        cx="7"
+                                        cy="19"
+                                        r="1.5"
+                                    ></circle>
+
+                                    <circle
+                                        cx="18"
+                                        cy="19"
+                                        r="1.5"
+                                    ></circle>
+
+                                </svg>
+
+                            </div>
+
+
+                            <div>
+
+                                <h4>
+                                    ارسال مطمئن
+                                </h4>
+
+                                <p>
+                                    ارسال سفارش با دقت
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="feature">
+
+                            <div class="feature-icon">
+
+                                <svg viewBox="0 0 24 24">
+
+                                    <path
+                                        d="M4 5h16v11H4z"
+                                    ></path>
+
+                                    <path
+                                        d="M8 20h8"
+                                    ></path>
+
+                                    <path
+                                        d="M12 16v4"
+                                    ></path>
+
+                                </svg>
+
+                            </div>
+
+
+                            <div>
+
+                                <h4>
+                                    پشتیبانی
+                                </h4>
+
+                                <p>
+                                    همراه شما در خرید
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACT
+        ========================= -->
+
+        <section
+            class="contact-section"
+            id="contact"
+        >
+
+            <div class="contact-inner reveal">
+
+                <span>
+                    ارتباط با ما
+                </span>
+
+
+                <h2>
+
+                    سوالی دارید؟
+
+                    <strong>
+                        با ما در تماس باشید.
+                    </strong>
+
+                </h2>
+
+
+                <p>
+                    اطلاعات تماس واقعی فروشگاه در این قسمت قرار می‌گیرد.
+                </p>
+
+
+                <div class="contact-buttons">
+
+                    <a
+                        href="#"
+                        class="contact-button"
+                    >
+                        تماس با ما
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="contact-button outline"
+                    >
+                        اینستاگرام
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-brand">
+
+                <img
+                    src="logo.png"
+                    alt="Nasrin Shop"
+                >
+
+
+                <p>
+                    انتخابی ساده، خاص و متفاوت.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+
+                <div>
+
+                    <h4>
+                        دسترسی سریع
+                    </h4>
+
+
+                    <a href="#home">
+                        خانه
+                    </a>
+
+
+                    <a href="#products">
+                        محصولات
+                    </a>
+
+
+                    <a href="#about">
+                        درباره ما
+                    </a>
+
+
+                    <a href="#contact">
+                        تماس با ما
+                    </a>
+
+                </div>
+
+
+
+                <div>
+
+                    <h4>
+                        اطلاعات
+                    </h4>
+
+
+                    <a href="#">
+                        قوانین و مقررات
+                    </a>
+
+
+                    <a href="#">
+                        روش ارسال
+                    </a>
+
+
+                    <a href="#">
+                        حریم خصوصی
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Nasrin Shop
+            </span>
+
+
+            <span>
+                طراحی و توسعه وب
+            </span>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================
+         MOBILE NAV
+    ========================= -->
+
+    <nav class="mobile-nav">
+
+
+        <a
+            href="#home"
+            class="mobile-nav-item active"
+        >
+
+            <svg viewBox="0 0 24 24">
+
+                <path
+                    d="M3 11l9-8 9 8"
+                ></path>
+
+                <path
+                    d="M5 10v10h14V10"
+                ></path>
+
+            </svg>
+
+
+            <span>
+                خانه
+            </span>
+
+        </a>
+
+
+
+        <a
+            href="#products"
+            class="mobile-nav-item"
+        >
+
+            <svg viewBox="0 0 24 24">
+
+                <rect
+                    x="4"
+                    y="4"
+                    width="6"
+                    height="6"
+                ></rect>
+
+                <rect
+                    x="14"
+                    y="4"
+                    width="6"
+                    height="6"
+                ></rect>
+
+                <rect
+                    x="4"
+                    y="14"
+                    width="6"
+                    height="6"
+                ></rect>
+
+                <rect
+                    x="14"
+                    y="14"
+                    width="6"
+                    height="6"
+                ></rect>
+
+            </svg>
+
+
+            <span>
+                محصولات
+            </span>
+
+        </a>
+
+
+
+        <a
+            href="#cart"
+            class="mobile-nav-item mobile-cart"
+        >
+
+            <svg viewBox="0 0 24 24">
+
+                <path
+                    d="M4 5h2l2 11h9l2-8H7"
+                ></path>
+
+                <circle
+                    cx="9"
+                    cy="20"
+                    r="1"
+                ></circle>
+
+                <circle
+                    cx="17"
+                    cy="20"
+                    r="1"
+                ></circle>
+
+            </svg>
+
+
+            <span>
+                سبد خرید
+            </span>
+
+
+            <b id="mobileCartCount">
+                0
+            </b>
+
+        </a>
+
+
+
+        <a
+            href="#account"
+            class="mobile-nav-item"
+        >
+
+            <svg viewBox="0 0 24 24">
+
+                <circle
+                    cx="12"
+                    cy="8"
+                    r="3.5"
+                ></circle>
+
+                <path
+                    d="M5 20c.8-3.5 3.2-5.5 7-5.5s6.2 2 7 5.5"
+                ></path>
+
+            </svg>
+
+
+            <span>
+                اکانت
+            </span>
+
+        </a>
+
+    </nav>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
