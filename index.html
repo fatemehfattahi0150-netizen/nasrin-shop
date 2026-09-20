@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Nasrin Shop | فروشگاه نسرین</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Nasrin Wear | فروشگاه نسرین</title>
+
+
+    <!-- Font -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
 
     <link
         href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap"
         rel="stylesheet"
     >
 
-    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
+
 
 <body>
 
-    <!-- Loading -->
+
+    <!-- =========================
+         LOADER
+    ========================= -->
+
     <div class="loader">
 
         <div class="loader-logo">
 
             <img
                 src="media/logo.jpg"
-                alt="Nasrin Shop"
+                alt="Nasrin Wear"
             >
 
         </div>
@@ -36,24 +65,43 @@
     </div>
 
 
-    <!-- Header -->
-    <header class="header" id="header">
+
+    <!-- =========================
+         HEADER
+    ========================= -->
+
+    <header
+        class="header"
+        id="header"
+    >
 
         <div class="header-container">
 
-            <a href="#home" class="logo">
+
+            <!-- Logo -->
+
+            <a
+                href="#home"
+                class="logo"
+            >
 
                 <img
                     src="media/logo.jpg"
-                    alt="Nasrin Shop"
+                    alt="Nasrin Wear"
                 >
 
             </a>
 
 
+
+            <!-- Desktop Navigation -->
+
             <nav class="desktop-nav">
 
-                <a href="#home" class="active">
+                <a
+                    href="#home"
+                    class="active"
+                >
                     خانه
                 </a>
 
@@ -76,7 +124,13 @@
             </nav>
 
 
+
+            <!-- Header Actions -->
+
             <div class="header-actions">
+
+
+                <!-- Search -->
 
                 <button
                     class="icon-button"
@@ -84,7 +138,10 @@
                     aria-label="جستجو"
                 >
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
 
                         <circle
                             cx="11"
@@ -101,13 +158,19 @@
                 </button>
 
 
+
+                <!-- Account -->
+
                 <button
                     class="icon-button"
                     id="accountBtn"
                     aria-label="حساب کاربری"
                 >
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
 
                         <circle
                             cx="12"
@@ -124,13 +187,19 @@
                 </button>
 
 
+
+                <!-- Cart -->
+
                 <button
                     class="icon-button cart-button"
                     id="cartBtn"
                     aria-label="سبد خرید"
                 >
 
-                    <svg viewBox="0 0 24 24">
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                    >
 
                         <path
                             d="M4 5h2l2 11h9l2-8H7"
@@ -150,6 +219,7 @@
 
                     </svg>
 
+
                     <span
                         class="cart-count"
                         id="cartCount"
@@ -165,6 +235,51 @@
 
     </header>
 
+
+
+    <!-- =========================
+         SEARCH
+    ========================= -->
+
+    <div
+        class="search-box"
+        id="searchBox"
+    >
+
+        <div class="search-inner">
+
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="نام محصول یا دسته‌بندی را جستجو کنید..."
+                autocomplete="off"
+            >
+
+
+            <button
+                type="button"
+                id="closeSearch"
+                aria-label="بستن جستجو"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <p
+            class="search-message"
+            id="searchMessage"
+        ></p>
+
+    </div>
+
+
+
+    <!-- =========================
+         MAIN
+    ========================= -->
 
     <main>
 
@@ -184,24 +299,26 @@
                 <div class="hero-content reveal">
 
                     <span class="hero-small-title">
-                        NASRIN SHOP
+                        NASRIN WEAR
                     </span>
 
 
                     <h1>
 
-                        انتخابی که
+                        استایل تو،
 
                         <span>
-                            خاص می‌شود.
+                            امضای توعه
                         </span>
 
                     </h1>
 
 
                     <p>
-                        مجموعه‌ای از محصولات منتخب با طراحی زیبا،
-                        کیفیت مناسب و تجربه‌ای متفاوت از خرید آنلاین.
+
+                        انتخابی متفاوت برای استایلی که مخصوص خودت است.
+                        مجموعه‌ای از لباس‌های خاص، کاربردی و خوش‌پوش.
+
                     </p>
 
 
@@ -222,11 +339,11 @@
 
 
                         <a
-                            href="#about"
+                            href="#categories"
                             class="secondary-button"
                         >
 
-                            درباره ما
+                            دسته‌بندی‌ها
 
                         </a>
 
@@ -238,40 +355,26 @@
 
                 <div class="hero-visual reveal delay-1">
 
+
                     <div class="hero-circle"></div>
 
-
-                    <!-- Hero Image -->
 
                     <div class="hero-card">
 
                         <img
                             src="media/hero.png"
-                            alt="Nasrin Shop"
+                            alt="محصولات Nasrin Wear"
                             class="hero-image"
                         >
+
 
                         <div class="hero-card-overlay">
 
                             <span>
-                                NASRIN SHOP
+                                NASRIN WEAR
                             </span>
 
                         </div>
-
-                    </div>
-
-
-                    <div class="floating-card floating-one">
-
-                        کیفیت
-
-                    </div>
-
-
-                    <div class="floating-card floating-two">
-
-                        انتخاب خاص
 
                     </div>
 
@@ -305,17 +408,20 @@
 
                 <h2>
 
-                    چیزی برای
+                    استایل موردنظر خودت را
 
                     <strong>
-                        انتخاب شما
+                        انتخاب کن
                     </strong>
 
                 </h2>
 
 
                 <p>
-                    دسته‌بندی موردنظر خود را انتخاب کنید.
+
+                    بین دسته‌بندی‌های نسرین بگرد و
+                    محصول مورد علاقه‌ات را پیدا کن.
+
                 </p>
 
             </div>
@@ -330,6 +436,7 @@
                 <a
                     href="#products"
                     class="category-card reveal"
+                    data-category="تی‌شرت"
                 >
 
                     <div class="category-number">
@@ -360,7 +467,7 @@
 
 
                     <p>
-                        انتخاب‌های خاص و کاربردی
+                        مدل‌های ساده و خاص
                     </p>
 
 
@@ -377,6 +484,7 @@
                 <a
                     href="#products"
                     class="category-card reveal delay-1"
+                    data-category="شلوار"
                 >
 
                     <div class="category-number">
@@ -388,20 +496,8 @@
 
                         <svg viewBox="0 0 24 24">
 
-                            <circle
-                                cx="12"
-                                cy="12"
-                                r="7"
-                            ></circle>
-
-                            <circle
-                                cx="12"
-                                cy="12"
-                                r="2"
-                            ></circle>
-
                             <path
-                                d="M17 7l3-3"
+                                d="M7 4h10l2 16h-5l-2-7-2 7H5z"
                             ></path>
 
                         </svg>
@@ -415,7 +511,7 @@
 
 
                     <p>
-                        جزئیاتی که استایل را کامل می‌کنند
+                        راحتی و استایل در کنار هم
                     </p>
 
 
@@ -432,6 +528,7 @@
                 <a
                     href="#products"
                     class="category-card reveal delay-2"
+                    data-category="ست"
                 >
 
                     <div class="category-number">
@@ -462,7 +559,7 @@
 
 
                     <p>
-                        مدل‌های کاربردی و متفاوت
+                        انتخابی کامل برای استایل تو
                     </p>
 
 
@@ -493,16 +590,16 @@
                 <div>
 
                     <span>
-                        منتخب فروشگاه
+                        محصولات منتخب
                     </span>
 
 
                     <h2>
 
-                        محصولات
+                        جدیدترین
 
                         <strong>
-                            جدید
+                            انتخاب‌ها
                         </strong>
 
                     </h2>
@@ -511,7 +608,7 @@
 
 
                 <a
-                    href="#"
+                    href="#products"
                     class="view-all"
                 >
 
@@ -530,9 +627,13 @@
             <div class="products-grid">
 
 
-                <!-- Product 1 -->
+                <!-- PRODUCT 1 -->
 
-                <article class="product-card reveal">
+                <article
+                    class="product-card reveal"
+                    data-name="تی شرت ساده"
+                    data-category="تی‌شرت"
+                >
 
                     <div class="product-image">
 
@@ -541,7 +642,11 @@
                         </span>
 
 
-                        <button class="favorite">
+                        <button
+                            class="favorite"
+                            type="button"
+                            aria-label="افزودن به علاقه‌مندی‌ها"
+                        >
 
                             <svg viewBox="0 0 24 24">
 
@@ -569,7 +674,7 @@
 
 
                         <h3>
-                            محصول شماره یک
+                            تی‌شرت ساده
                         </h3>
 
 
@@ -580,7 +685,11 @@
                             </strong>
 
 
-                            <button class="add-cart">
+                            <button
+                                class="add-cart"
+                                type="button"
+                                aria-label="افزودن به سبد خرید"
+                            >
                                 +
                             </button>
 
@@ -592,9 +701,13 @@
 
 
 
-                <!-- Product 2 -->
+                <!-- PRODUCT 2 -->
 
-                <article class="product-card reveal delay-1">
+                <article
+                    class="product-card reveal delay-1"
+                    data-name="شلوار روزمره"
+                    data-category="شلوار"
+                >
 
                     <div class="product-image">
 
@@ -603,7 +716,11 @@
                         </span>
 
 
-                        <button class="favorite">
+                        <button
+                            class="favorite"
+                            type="button"
+                            aria-label="افزودن به علاقه‌مندی‌ها"
+                        >
 
                             <svg viewBox="0 0 24 24">
 
@@ -631,7 +748,7 @@
 
 
                         <h3>
-                            محصول شماره دو
+                            شلوار روزمره
                         </h3>
 
 
@@ -642,7 +759,11 @@
                             </strong>
 
 
-                            <button class="add-cart">
+                            <button
+                                class="add-cart"
+                                type="button"
+                                aria-label="افزودن به سبد خرید"
+                            >
                                 +
                             </button>
 
@@ -654,9 +775,13 @@
 
 
 
-                <!-- Product 3 -->
+                <!-- PRODUCT 3 -->
 
-                <article class="product-card reveal delay-2">
+                <article
+                    class="product-card reveal delay-2"
+                    data-name="ست روزمره"
+                    data-category="ست"
+                >
 
                     <div class="product-image">
 
@@ -665,7 +790,11 @@
                         </span>
 
 
-                        <button class="favorite">
+                        <button
+                            class="favorite"
+                            type="button"
+                            aria-label="افزودن به علاقه‌مندی‌ها"
+                        >
 
                             <svg viewBox="0 0 24 24">
 
@@ -693,7 +822,7 @@
 
 
                         <h3>
-                            محصول شماره سه
+                            ست روزمره
                         </h3>
 
 
@@ -704,7 +833,11 @@
                             </strong>
 
 
-                            <button class="add-cart">
+                            <button
+                                class="add-cart"
+                                type="button"
+                                aria-label="افزودن به سبد خرید"
+                            >
                                 +
                             </button>
 
@@ -716,9 +849,13 @@
 
 
 
-                <!-- Product 4 -->
+                <!-- PRODUCT 4 -->
 
-                <article class="product-card reveal delay-3">
+                <article
+                    class="product-card reveal delay-3"
+                    data-name="تی شرت خاص"
+                    data-category="تی‌شرت"
+                >
 
                     <div class="product-image">
 
@@ -727,7 +864,11 @@
                         </span>
 
 
-                        <button class="favorite">
+                        <button
+                            class="favorite"
+                            type="button"
+                            aria-label="افزودن به علاقه‌مندی‌ها"
+                        >
 
                             <svg viewBox="0 0 24 24">
 
@@ -755,7 +896,7 @@
 
 
                         <h3>
-                            محصول شماره چهار
+                            تی‌شرت خاص
                         </h3>
 
 
@@ -766,7 +907,11 @@
                             </strong>
 
 
-                            <button class="add-cart">
+                            <button
+                                class="add-cart"
+                                type="button"
+                                aria-label="افزودن به سبد خرید"
+                            >
                                 +
                             </button>
 
@@ -775,6 +920,19 @@
                     </div>
 
                 </article>
+
+
+            </div>
+
+
+            <!-- No Result -->
+
+            <div
+                class="no-results"
+                id="noResults"
+            >
+
+                محصولی با این مشخصات پیدا نشد.
 
             </div>
 
@@ -790,26 +948,27 @@
 
             <div class="promo-inner reveal">
 
+
                 <div>
 
                     <span>
-                        NASRIN SHOP
+                        NASRIN WEAR
                     </span>
 
 
                     <h2>
 
-                        انتخاب ساده،
+                        استایل خودت را
 
                         <strong>
-                            حس خوب.
+                            بساز.
                         </strong>
 
                     </h2>
 
 
                     <p>
-                        محصول مورد علاقه‌ات را پیدا کن و خریدی متفاوت را تجربه کن.
+                        انتخابی ساده، شیک و نزدیک به سلیقه خودت.
                     </p>
 
                 </div>
@@ -820,7 +979,7 @@
                     class="primary-button light"
                 >
 
-                    شروع خرید
+                    مشاهده محصولات
 
                     <span>
                         ←
@@ -848,18 +1007,15 @@
 
                 <div class="about-visual reveal">
 
-
-                    <!-- عکس با دقت انتخاب شده -->
-
                     <div class="about-main-card">
 
                         <img
                             src="media/down.png"
-                            alt="محصولات منتخب نسرین‌شاپ"
+                            alt="Nasrin Wear"
                         >
 
                         <span>
-                            NASRIN SHOP
+                            NASRIN WEAR
                         </span>
 
                     </div>
@@ -867,10 +1023,10 @@
 
                     <div class="about-small-card">
 
-                        کیفیت
+                        انتخاب دقیق
 
                         <strong>
-                            با دقت انتخاب شده
+                            برای استایل تو
                         </strong>
 
                     </div>
@@ -882,7 +1038,7 @@
                 <div class="about-content reveal delay-1">
 
                     <span class="section-label">
-                        درباره فروشگاه
+                        درباره ما
                     </span>
 
 
@@ -891,18 +1047,20 @@
                         نسرین؛
 
                         <strong>
-                            انتخابی برای شما
+                            انتخابی برای تو
                         </strong>
 
                     </h2>
 
 
                     <p>
-                        این قسمت برای معرفی فروشگاه نسرین در نظر گرفته شده است.
-                        اطلاعات واقعی فروشگاه، داستان برند و توضیحات موردنظر
-                        کارفرما بعداً در این بخش قرار می‌گیرد.
-                    </p>
 
+                        نسرین‌ویر برای کسانی ساخته شده که در کنار راحتی،
+                        به ظاهر و سبک شخصی خودشان اهمیت می‌دهند.
+                        محصولات فروشگاه با دقت انتخاب می‌شوند تا
+                        تجربه‌ای ساده و دلنشین از خرید داشته باشید.
+
+                    </p>
 
 
                     <div class="features">
@@ -930,7 +1088,7 @@
                                 </h4>
 
                                 <p>
-                                    محصولات منتخب برای شما
+                                    محصولات منتخب
                                 </p>
 
                             </div>
@@ -977,7 +1135,7 @@
                                 </h4>
 
                                 <p>
-                                    ارسال سفارش با دقت
+                                    ارسال با دقت
                                 </p>
 
                             </div>
@@ -1051,17 +1209,17 @@
 
                 <h2>
 
-                    سوالی دارید؟
+                    سوالی داری؟
 
                     <strong>
-                        با ما در تماس باشید.
+                        با ما در تماس باش.
                     </strong>
 
                 </h2>
 
 
                 <p>
-                    اطلاعات تماس واقعی فروشگاه در این قسمت قرار می‌گیرد.
+                    اطلاعات تماس فروشگاه بعداً در این قسمت قرار می‌گیرد.
                 </p>
 
 
@@ -1104,13 +1262,13 @@
             <div class="footer-brand">
 
                 <img
-                    src="logo.png"
-                    alt="Nasrin Shop"
+                    src="media/logo.jpg"
+                    alt="Nasrin Wear"
                 >
 
 
                 <p>
-                    انتخابی ساده، خاص و متفاوت.
+                    استایل تو، امضای توعه.
                 </p>
 
             </div>
@@ -1178,11 +1336,10 @@
         </div>
 
 
-
         <div class="footer-bottom">
 
             <span>
-                © 2026 Nasrin Shop
+                © 2026 Nasrin Wear
             </span>
 
 
@@ -1344,7 +1501,12 @@
 
 
 
+    <!-- =========================
+         JAVASCRIPT
+    ========================= -->
+
     <script src="script.js"></script>
 
 </body>
+
 </html>
